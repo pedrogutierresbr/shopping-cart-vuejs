@@ -1,17 +1,17 @@
 const vm = new Vue({
 	el: "#app",
 	data: {
-		products: [],
+		produtos: [],
 	},
 	methods: {
-		async getProducts() {
+		async pegarProdutos() {
 			const url = "./api/produtos.json";
-			const products = await fetch(url)
+			const produtos = await fetch(url)
 				.then((response) => response.json())
-				.then((data) => (this.products = data));
+				.then((data) => (this.produtos = data));
 		},
 	},
 	created() {
-		this.getProducts();
+		this.pegarProdutos();
 	},
 });
