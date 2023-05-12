@@ -24,6 +24,11 @@ const vm = new Vue({
 		},
 	},
 	watch: {
+		produto() {
+			document.title = this.produto.nome || "Techno";
+			const hash = this.produto.id || "";
+			history.pushState(null, null, `#${hash}`);
+		},
 		carrinho() {
 			window.localStorage.carrinho = JSON.stringify(this.carrinho);
 		},
@@ -72,10 +77,16 @@ const vm = new Vue({
 				this.alertaAtivo = false;
 			}, 800);
 		},
+		router() {
+			const hash = document.location.hash;
+			if (hash) {
+				this.fetchProduto(hash.replace("#", ""));
+			}
+		},
 	},
-
 	created() {
 		this.fetchProdutos();
+		this.router();
 		this.checarLocalStorage();
 	},
 });
