@@ -12,12 +12,14 @@
 	</head>
 	<body>
 		<div id="app">
+			<section class="modal">{{produto}}</section>
+
 			<section class="produtos">
-				<div class="produto" v-for="(produto, id) in produtos" :key="produto.id">
-					<img :src="produto.img" :alt="produto.img" class="produto_img" />
+				<div class="produto" v-for="(item, id) in produtos" :key="item.id" @click="fetchProduto(item.id)">
+					<img :src="item.img" :alt="item.img" class="produto_img" />
 					<div class="produto_info">
-						<span class="produto_preco">{{produto.preco | numeroPreco}}</span>
-						<h2 class="produto_titulo">{{produto.nome}}</h2>
+						<span class="produto_preco">{{item.preco | numeroPreco}}</span>
+						<h2 class="produto_titulo">{{item.nome}}</h2>
 					</div>
 				</div>
 			</section>
