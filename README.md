@@ -30,7 +30,7 @@ Além de possuir a extensão Live Server em seu editor de código:
 
 -   [LiveServer](https://github.com/ritwickdey/vscode-live-server-plus-plus)
 
-#### 🧭 Rodando a aplicação web (Frontend)
+#### Rodando a aplicação web (Frontend)
 
 ```bash
 
@@ -59,7 +59,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
-Feito por Pedro Gutierres 👋🏽 [Entre em contato!](https://www.linkedin.com/in/pedro-gutierres/)
+Feito por Pedro Gutierres [Entre em contato!](https://www.linkedin.com/in/pedro-gutierres/)
 
 ## Versões do README
 
