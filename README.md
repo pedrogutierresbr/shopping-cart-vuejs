@@ -4,8 +4,6 @@
 
 Este é um sistema que replica a experiência de um carrinho de compras de e-commerce, trazendo todas a etapas mais importantes que um usuário passa durante sua jornada em busca de um produto, com foco no frontend da aplicação.
 
----
-
 ## Funcionalidades
 
 -   O projeto possibilita ao usuário:
@@ -16,8 +14,6 @@ Este é um sistema que replica a experiência de um carrinho de compras de e-com
     -   Acessar carrinho de compras com todos os produtos adicionados
     -   Visualizar total da compra
     -   Remover produtos do carrinho
-
----
 
 ## Como executar o projeto
 
@@ -50,8 +46,6 @@ $ cd shopping-cart
 
 ```
 
----
-
 ## Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -61,15 +55,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   JavaScript
 -   Vue.JS
 
----
-
 ## Licença
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
 Feito por Pedro Gutierres 👋🏽 [Entre em contato!](https://www.linkedin.com/in/pedro-gutierres/)
-
----
 
 ## Versões do README
 
