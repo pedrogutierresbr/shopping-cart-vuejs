@@ -17,7 +17,7 @@ Este é um sistema que replica a experiência de um carrinho de compras de e-com
 
 ## Como executar o projeto
 
-Este projeto é focado apenas no Frontendd
+Este projeto é focado apenas no Frontend
 
 ### Pré-requisitos
 
@@ -30,7 +30,7 @@ Além de possuir a extensão Live Server em seu editor de código:
 
 -   [LiveServer](https://github.com/ritwickdey/vscode-live-server-plus-plus)
 
-#### Rodando a aplicação web (Frontend)
+#### Rodando a aplicação web
 
 ```bash
 
