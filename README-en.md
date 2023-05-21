@@ -35,7 +35,10 @@ In addition to having the Live Server extension in your code editor:
 ```bash
 
 # Clone this repository
-$ git clone git@github.com:pedrogutierresbr/shopping-cart-vuejs.git
+$ git clone https://github.com/pedrogutierresbr/shopping-cart-vuejs.git
+
+# Install dependencies
+$ npm install
 
 # Access the project folder in your terminal
 $ cd shopping-cart
@@ -63,4 +66,4 @@ Made by Pedro Gutierres [Entre em contato!](https://www.linkedin.com/in/pedro-gu
 
 ## Versions of README
 
-[Inglês 🇺🇸](./README-en.md)
+[Portuguese](./README-en.md)
